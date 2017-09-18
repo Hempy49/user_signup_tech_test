@@ -7,9 +7,12 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      session[:user_id] = @user.id
+      UserMailer.signup_confirmation(@user).deliver_now
+      flash[:success] = "Signed up successfully"
       redirect_to @user
     else
+      flash[:error] = "Sign up failed. Username,
+      valid email and password required."
       redirect_to new_user_url
     end
   end
