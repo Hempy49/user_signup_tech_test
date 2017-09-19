@@ -19,7 +19,7 @@ and confirming their username.
 
 ## Approach
 
-The project was written in Ruby on Rails following a TDD approach. I enjoyed learning more about action mailer, something I had not used before in rails.
+The project was written in Ruby on Rails following a TDD approach. This was a fun project that consolidated some of my rails knowledge. I also learnt some new skills including how to send emails with action mailer and how to test this functionality.  
 
 ## How to use
 First clone this repo. Then:
