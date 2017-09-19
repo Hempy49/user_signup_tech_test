@@ -31,3 +31,10 @@ bundle exec rspec # Run the tests to ensure it works
 bin/rails server # Start the server at localhost:300
 ```
 ## Screenshots
+
+User sign up form:
+![Sign up form](https://user-images.githubusercontent.com/25139253/30595792-1f58f6b6-9d4a-11e7-8963-f72f7bf8ab58.png)
+Rspec tests passing:
+![rspec tests](https://user-images.githubusercontent.com/25139253/30595724-e3f2d376-9d49-11e7-8d94-d2c3ad4cc7d0.png)
+Email sent successfully to new user:
+![email sent](https://user-images.githubusercontent.com/25139253/30595761-0c432b14-9d4a-11e7-932c-bd8c5e9af705.png)
